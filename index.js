@@ -1,16 +1,6 @@
-// Code your solutions in this file
-
-const count = [10,9,8,7,6,5,4,3,2,1,];
-
-function countDown() {
-  let i = 0;
-  while (i < 10) {
-    console.log(count[i]);
-    i++;
+let countdown = 10;
+  while (countdown > 0){
+      console.log(countdown);
+      countdown = countdown - 1;
   }
-
-  return count;
-
-}
-
-countDown(10);
+  console.log(0);
